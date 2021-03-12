@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DietManagement</string>
+    <string name="welcome_label">iDiet</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_btn_text">Login</string>
+    <string name="login_title">Welcome to iDiet</string>
+    <string name="user_input_hint">Enter Username</string>
+    <string name="pass_input_hint">Enter Password</string>
+    <string name="email_input_hint">Enter Email</string>
+    <string name="phone_input_hint">Enter Phone Number</string>
+    <string name="register">Register</string>
+    <string name="current_user">User</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone Number</string>
+</resources>

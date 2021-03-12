@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_green"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/tuesday_btn"
+        android:layout_width="140dp"
+        android:layout_height="86dp"
+        android:text="@string/tuesday"
+        android:textColor="#6FED84"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintStart_toEndOf="@+id/monday_btn"
+        app:layout_constraintTop_toBottomOf="@+id/main_title"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="147dp"
+        android:layout_height="93dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/welcome_label"
+        android:textColor="#FFFFFF"
+        android:textSize="70sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <Button
+        android:id="@+id/monday_btn"
+        android:layout_width="140dp"
+        android:layout_height="86dp"
+        android:text="@string/monday"
+        android:textColor="#6FED84"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_title"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <Button
+        android:id="@+id/thursday_btn"
+        android:layout_width="140dp"
+        android:layout_height="86dp"
+        android:text="@string/thursday"
+        android:textColor="#6FED84"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_title"
+        app:layout_constraintVertical_bias="0.321" />
+
+    <Button
+        android:id="@+id/sunday_btn"
+        android:layout_width="283dp"
+        android:layout_height="87dp"
+        android:text="@string/sunday"
+        android:textColor="#6FED84"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_title"
+        app:layout_constraintVertical_bias="0.805" />
+
+    <Button
+        android:id="@+id/saturday_btn"
+        android:layout_width="140dp"
+        android:layout_height="86dp"
+        android:text="@string/saturday"
+        android:textColor="#6FED84"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_title"
+        app:layout_constraintVertical_bias="0.566" />
+
+    <Button
+        android:id="@+id/friday_btn"
+        android:layout_width="140dp"
+        android:layout_height="86dp"
+        android:text="@string/friday"
+        android:textColor="#6FED84"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_title"
+        app:layout_constraintVertical_bias="0.566" />
+
+    <Button
+        android:id="@+id/wednesday_btn"
+        android:layout_width="140dp"
+        android:layout_height="86dp"
+        android:text="@string/wednesday"
+        android:textColor="#6FED84"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_title"
+        app:layout_constraintVertical_bias="0.323" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="52dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toEndOf="@+id/main_title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_logo" />
+
+    <TextView
+        android:id="@+id/current_user"
+        android:layout_width="362dp"
+        android:layout_height="27dp"
+        android:text="@string/current_user"
+        android:textAlignment="viewEnd"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/main_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.318" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
