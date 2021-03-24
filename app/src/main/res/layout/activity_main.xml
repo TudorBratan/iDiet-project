@@ -10,17 +10,20 @@
 
     <Button
         android:id="@+id/tuesday_btn"
-        android:layout_width="140dp"
-        android:layout_height="86dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_states"
+        android:contentDescription="@string/thursday_context"
         android:text="@string/tuesday"
-        android:textColor="#6FED84"
-        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintHorizontal_bias="0.194"
         app:layout_constraintStart_toEndOf="@+id/monday_btn"
         app:layout_constraintTop_toBottomOf="@+id/main_title"
-        app:layout_constraintVertical_bias="0.08" />
+        app:layout_constraintVertical_bias="0.017" />
 
     <TextView
         android:id="@+id/main_title"
@@ -39,86 +42,100 @@
 
     <Button
         android:id="@+id/monday_btn"
-        android:layout_width="140dp"
-        android:layout_height="86dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_states"
+        android:contentDescription="@string/monday_context"
         android:text="@string/monday"
-        android:textColor="#6FED84"
-        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintHorizontal_bias="0.16"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/main_title"
-        app:layout_constraintVertical_bias="0.082" />
+        app:layout_constraintVertical_bias="0.017" />
 
     <Button
         android:id="@+id/thursday_btn"
-        android:layout_width="140dp"
-        android:layout_height="86dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_states"
         android:text="@string/thursday"
-        android:textColor="#6FED84"
-        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintHorizontal_bias="0.018"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/main_title"
-        app:layout_constraintVertical_bias="0.321" />
+        app:layout_constraintVertical_bias="0.172" />
 
     <Button
         android:id="@+id/sunday_btn"
-        android:layout_width="283dp"
-        android:layout_height="87dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_states"
         android:text="@string/sunday"
-        android:textColor="#6FED84"
-        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toEndOf="@+id/saturday_btn"
         app:layout_constraintTop_toBottomOf="@+id/main_title"
-        app:layout_constraintVertical_bias="0.805" />
+        app:layout_constraintVertical_bias="0.172" />
 
     <Button
         android:id="@+id/saturday_btn"
-        android:layout_width="140dp"
-        android:layout_height="86dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_states"
         android:text="@string/saturday"
-        android:textColor="#6FED84"
-        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.943"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toEndOf="@+id/friday_btn"
         app:layout_constraintTop_toBottomOf="@+id/main_title"
-        app:layout_constraintVertical_bias="0.566" />
+        app:layout_constraintVertical_bias="0.172" />
 
     <Button
         android:id="@+id/friday_btn"
-        android:layout_width="140dp"
-        android:layout_height="86dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_states"
         android:text="@string/friday"
-        android:textColor="#6FED84"
-        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.091"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toEndOf="@+id/thursday_btn"
         app:layout_constraintTop_toBottomOf="@+id/main_title"
-        app:layout_constraintVertical_bias="0.566" />
+        app:layout_constraintVertical_bias="0.172" />
 
     <Button
         android:id="@+id/wednesday_btn"
-        android:layout_width="140dp"
-        android:layout_height="86dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_states"
         android:text="@string/wednesday"
-        android:textColor="#6FED84"
-        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.092"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintStart_toEndOf="@+id/tuesday_btn"
         app:layout_constraintTop_toBottomOf="@+id/main_title"
-        app:layout_constraintVertical_bias="0.323" />
+        app:layout_constraintVertical_bias="0.017" />
 
     <ImageView
         android:id="@+id/logo"
@@ -126,6 +143,7 @@
         android:layout_height="58dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="52dp"
+        android:contentDescription="@string/app_name"
         app:layout_constraintStart_toEndOf="@+id/main_title"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_logo" />
@@ -143,6 +161,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.318" />
+
+    <FrameLayout
+        android:id="@+id/daysfragment"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
