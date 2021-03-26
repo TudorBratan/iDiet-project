@@ -42,9 +42,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openFragment(mondayFragment);
-                Bundle bndMon = new Bundle();
-                bndMon.putString("monday", (String) monday.getContentDescription());
-                mondayFragment.setArguments(bndMon);
+                getDay(mondayFragment, "monday", (String) monday.getContentDescription());
             }
         });
 
@@ -53,9 +51,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openFragment(tuesdayFragment);
-                Bundle bndTue = new Bundle();
-                bndTue.putString("tuesday", (String) tuesday.getContentDescription());
-                tuesdayFragment.setArguments(bndTue);
+                getDay(mondayFragment, "tuesday", (String) tuesday.getContentDescription());
             }
         });
 
@@ -69,6 +65,16 @@ public class MainActivity extends AppCompatActivity {
         transaction.commit();
     }
 
+    public void getDay(final Fragment fragment, String key, String value)
+    {
+        Bundle bnd = new Bundle();
+        bnd.putString(key, value);
+        fragment.setArguments(bnd);
+    }
+
+    public void replaceFragment(View v){
+
+    }
 
 
 }
