@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">DietManagement</string>
     <string name="welcome_label">iDiet</string>
-    <string name="monday">M</string>
-    <string name="tuesday">T</string>
-    <string name="wednesday">W</string>
-    <string name="thursday">T</string>
-    <string name="friday">F</string>
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
     <string name="saturday">Sa</string>
     <string name="sunday">Su</string>
     <string name="monday_context">Monday</string>
@@ -22,12 +22,15 @@
     <string name="user_input_hint">Enter Username</string>
     <string name="pass_input_hint">Enter Password</string>
     <string name="email_input_hint">Enter Email</string>
-    <string name="phone_input_hint">Enter Phone Number</string>
+    <string name="fullname_input_hint">Enter Your Full Name</string>
     <string name="register">Register</string>
     <string name="current_user">User</string>
     <string name="email">Email</string>
-    <string name="phone">Phone Number</string>
-    <string name="meal">Insert time and your meal</string>
+    <string name="fullname">Full name</string>
+    <string name="meal">Type your meal</string>
+    <string name="time">Type meal time</string>
     <string name="submit">Submit</string>
     <string name="day">Day</string>
+    <string name="title_activity_day">DayActivity</string>
+    <string name="loadlist">Load List</string>
 </resources>
